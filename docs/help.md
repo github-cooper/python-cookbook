@@ -1,4 +1,5 @@
 # GitHub Quick Setup
+
 ```shell
 # create a new repository on the command line
 echo "# python_cookbook" >> README.md
@@ -13,4 +14,12 @@ git push -u origin main
 git remote add origin https://github.com/cooperwang-github/python_cookbook.git
 git branch -M main
 git push -u origin main
+```
+
+# Pip 
+- [pip cli](https://pip.pypa.io/en/stable/cli/)
+
+```shell
+# 格式化输出虚拟环境依赖包
+pip freeze > requirements.txt
 ```
